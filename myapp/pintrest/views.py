@@ -3,9 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def dashboard(request):
-
-
-
+def home(request):
     
-    return HttpResponse("Welcome to the Pinterest Dashboard!")
+    return render(request,"pintrest/home.html")#t

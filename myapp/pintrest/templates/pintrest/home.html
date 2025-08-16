@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest</title>
+  <link rel="stylesheet" href="{% static 'pintrest/home.css' %}">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">P</div>
+    <nav>
+      <a href="#"><i>🏠</i></a>
+      <a href="#"><i>📩</i></a>
+      <a href="#"><i>➕</i></a>
+      <a href="#"><i>🔔</i></a>
+      <a href="#"><i>💬</i></a>
+    </nav>
+    <div class="settings"><i>⚙️</i></div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Search bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+    </div>
+
+    <!-- Pins Grid -->
+    <div class="pins">
+      <div class="pin"><img src="https://picsum.photos/400/500?random=1" alt=""><p> Luffy</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/600?random=2" alt=""><p>Zoro</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/450?random=3" alt=""><p>Wallpaper</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/550?random=4" alt=""><p>Vinland Saga</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/400?random=5" alt=""><p>Anime Art</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/470?random=6" alt=""><p>Demon</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/520?random=7" alt=""><p>One Piece</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/530?random=8" alt=""><p>Spider-Man</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/480?random=9" alt=""><p>Wallpaper</p></div>
+      <div class="pin"><img src="https://picsum.photos/400/510?random=10" alt=""><p>Cool Art</p></div>
+    </div>
+  </main>
+</body>
+</html>

@@ -5,7 +5,7 @@ from . import views
 app_name = 'pintrest'
 
 urlpatterns = [
-    path('',views.dashboard, name='dashboard'),
+    path('',views.home, name='dashboard'),
 ]
 
 # ...../myapp.urls / pintrest.urls /
